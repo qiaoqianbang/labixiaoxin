@@ -1,0 +1,24 @@
+2020-01-31 12:26:07,608 ERROR 13612 [-/127.0.0.1/-/16ms POST /login] nodejs.ReferenceError: app is not defined
+    at HomeController.login (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\controller\home.js:24:47)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa-static-cache\index.js:51:63
+
+pid: 13612
+hostname: DESKTOP-H6DJ0KM
+
+2020-01-31 13:26:09,753 ERROR 13688 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13688
+hostname: DESKTOP-H6DJ0KM
+

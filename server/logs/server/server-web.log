@@ -1,0 +1,31 @@
+2020-01-31 12:00:28,334 WARN 5052 [-/127.0.0.1/-/4ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-01-31 12:00:28,336 WARN 5052 [-/127.0.0.1/-/6ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\app\extend\context.js:153:19)
+    at csrf (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 5052
+hostname: DESKTOP-H6DJ0KM
+
+2020-01-31 12:26:07,610 ERROR 13612 [-/127.0.0.1/-/16ms POST /login] nodejs.ReferenceError: app is not defined
+    at HomeController.login (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\controller\home.js:24:47)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa-static-cache\index.js:51:63
+
+pid: 13612
+hostname: DESKTOP-H6DJ0KM
+
